@@ -1,0 +1,29 @@
+<ion-menu [content]="content">
+    
+        <ion-content>
+            <div style=" background :#616161; height: 156px;">
+                <div style="padding: 10px;     margin-left: 11px;">
+                    <img src="assets/imgs/user.jpg" class="userimg">
+                </div>
+                <ion-row style="padding: 10px; padding: 10px;
+                margin-top: 26px;">
+                    <ion-col col-8>
+                        <p class="email"> xyz@gmail.com </p>
+                    </ion-col>
+                    <ion-col col-4>
+                        <ion-icon name="ios-arrow-down-outline" class="arrowicon"></ion-icon>
+                    </ion-col>
+                </ion-row>
+            </div>
+            <ion-list>
+                <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
+                    <ion-icon name="{{p.icon}}" class="f-size30"></ion-icon>
+                    <span style="margin-left: 15px;"> {{p.title}}</span>
+                </button>
+            </ion-list>
+        </ion-content>
+    
+    </ion-menu>
+    
+    <!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
+    <ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

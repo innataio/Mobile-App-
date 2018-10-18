@@ -1,0 +1,65 @@
+page-specialist{
+    ion-title {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 0 0px 1px;
+        width: 70%;
+        margin: auto;
+        height: 100%;
+        text-align: center;
+      }
+    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default{
+        color: black !important;
+    }
+    .toolbar-title-md{
+        color: black !important;
+    }
+    .toolbar-background-md{
+        background:#fff !important;
+    }
+    .doctor_image{
+        img{
+            border-radius: 50%;
+            width: 80%;
+            height: 60px;
+        }
+    }
+    .group_name_text{
+        font-size: 16px
+    }
+    .arrow_icon{
+        font-size: 19px;
+        float: right;
+        margin-top: 16px;
+    }
+    .group_notice_text{
+        font-size: 16px;
+        margin-left: 5px;
+    }
+    .dna_lab_text{
+        margin: 0;
+    }
+    .group_name_box{
+        border: 1px solid lightgray;
+        background: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 10px;
+        margin: 5px;
+    }
+    .doctor_imgs{
+        background: #fff;
+        margin: 2px;
+        padding: 10px;
+    }
+    .see_more{
+        font-size: 30px;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    .button-md{
+        text-transform: none;
+    }
+}

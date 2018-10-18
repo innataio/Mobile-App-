@@ -1,0 +1,7 @@
+{
+  "name": "innata",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

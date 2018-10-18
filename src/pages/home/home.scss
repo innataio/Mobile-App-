@@ -1,0 +1,159 @@
+page-home {
+    ion-title {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 0 0px 1px;
+        width: 70%;
+        margin: auto;
+        height: 100%;
+        text-align: center;
+      }
+      .chatbox{
+        height: 169px;
+        background: #fefefe;
+        border-radius: 20px;
+      }
+      .chatbox1{
+        height:301px;
+        background: #fefefe;
+        border-radius: 20px;
+      }
+      .chatbox2{
+        height:363px;
+        background: #fefefe;
+        border-radius: 20px;
+      }
+      .headingpara{
+        font-size: 16px;
+        font-weight: 500;
+      }
+      headingpara1{
+        font-size: 14px;
+        font-weight: 300;
+        margin: 0;
+      }
+      .pdingleft{
+        padding-left: 20px;
+      }
+      ion-app.md [padding] {
+        padding: 9px !important;
+    }
+    .buubleDiv{
+      margin-top: -4px;
+      text-align: center;
+    }
+    //   324a5e
+    //   9bc785
+    //   616161
+    .input{
+      height: 39px !important;
+      width: 216px !important;
+      border-radius: 33px !important;
+      border: 1px solid lightgrey !important;
+      font-size: 13px;
+      text-align: center;
+      margin-left: -14px;
+    }
+    .rowclass{
+      text-align: center;
+      margin-top: 62px;
+    }
+    .rowclass1{
+      text-align: center;
+      margin-top: -3px;
+    }
+    .drPara{
+      font-size: 17px;
+      font-weight: 500;
+    }
+    .row2{
+      // text-align: center;
+      // position: relative;
+      // top: -15px;
+      margin-top: -30px;
+    }
+    .usrimgss{
+      position: absolute;
+      height: 37px;
+      width: 41px;
+      border-radius: 50%;
+      left: 47px;
+      top: 11px;
+    }
+    .voicebutton{
+      background: #9bc785 !important;
+      width: 100%;
+      padding: 16px !important ;
+    }
+    .mediaicon{
+      position: absolute;
+      left: 12px;
+
+    }
+    .chatbox3{
+      height: 217px;
+      background: #fefefe;
+      border-radius: 20px;
+    }
+    .item-md.item-block .item-inner {
+      padding-right: 8px;
+      border-bottom: none !important
+  }
+  .plusicon{
+    font-size: 23px;
+    float: right;
+    position: absolute;
+    left: 36px
+  }
+  .loadpara{
+    color: #5c9be5;
+    text-align: center;
+    margin: 0px;
+  }
+  .seemore{
+    margin: 0;
+    color: #5c9be5;
+  }
+  .headingparaspecialist{
+    margin: 0;
+    font-size: 15px;
+    color: #be71e4;
+  }
+  .explore_more_text{
+    margin: 0;
+    color: #5c9be5;
+  }
+  .rotate1{
+    transform: rotate(60deg);
+  }
+  .rotate2{
+    transform: rotate(120deg);
+  }
+  .rotate3{
+    transform: rotate(180deg);
+  }
+  .rotate4{
+    transform: rotate(240deg);
+  }
+  .rotate5{
+    transform: rotate(300deg);
+  }
+  .rotate6{
+    transform: rotate(360deg);
+  }
+  .center_image{
+    position: relative;
+  }
+
+  #draggable {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+   }
+   
+
+}

@@ -1,0 +1,43 @@
+page-mygenie {
+    ion-title {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 0 0px 1px;
+        width: 70%;
+        margin: auto;
+        height: 100%;
+        text-align: center;
+      }
+    table{
+        thead{
+            tr{
+                th{
+                    border: 2px solid #e9ebec;
+                }
+            }
+        }
+        tbody{
+            tr{
+                td{
+                    border: 1px solid #e9ebec;
+                    font-size: 12px
+                }
+            }
+        }
+    }
+    [_nghost-c0] a{
+        color: #1e6bb8;
+        font-size: 12px
+    }
+    ng2-smart-title{
+        font-size: 12px
+    }
+    .paddingclass{
+        padding: 10px;
+    }
+    [_nghost-c0] *{
+        font-size: 11px;
+    }
+}

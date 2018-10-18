@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>My Genes</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div padding style="text-align: center;">
+    <ng2-smart-table [settings]="settings" [source]="data"></ng2-smart-table>  
+  </div>
+ 
+</ion-content>

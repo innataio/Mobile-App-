@@ -1,0 +1,19 @@
+page-treatmentsearch {
+    .bg{
+        background-image: url("../assets/imgs/dna.jpg");
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: cover;
+    }
+    ion-title {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 0 0px 1px;
+        width: 70%;
+        margin: auto;
+        height: 100%;
+        text-align: center;
+      }
+}
