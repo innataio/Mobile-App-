@@ -46,11 +46,10 @@ export class MyApp {
       {  title: 'Promos ', component: PromosPage, icon:"md-pricetag"},
       {  title: 'Purchase ', component: PurchasePage, icon:"md-cart"},
       {  title: 'Social ', component: SocialPage, icon:"md-people"},
-      
+      { title: 'My Genie', component:  MygeniePage, icon:"md-medkit"},      
       
       // { title: 'List', component: ListPage },
       // { title: 'Connnect to Community', component:  ConnecttocommunityPage },
-      // { title: 'My Genie', component:  MygeniePage },
       // { title: 'Connect to Sepecialist', component:   ConnecttospecialistPage },
       // { title: 'Patient Chat Box ', component:   PatientchatboxPage },
       // { title: 'Search Engine ', component:   SearchenginePage },

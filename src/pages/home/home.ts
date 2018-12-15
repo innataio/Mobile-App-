@@ -41,6 +41,7 @@ export class HomePage implements OnInit {
       type: "rotation",
       throwProps: true,
       onDrag: function () {
+        console.log("------------ WWW -------------");
         console.log(this.rotation);
       }
     });

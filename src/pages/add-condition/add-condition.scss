@@ -1,0 +1,46 @@
+page-add-condition {
+    .toolbar-background {
+        background-color: #33bba7;
+    }
+    .toolbar-title-ios {
+        color: white !important;
+        font-weight: 100 !important;
+    }
+    .toolbar-title-md {
+        color: white !important;
+        font-weight: 100 !important;
+    }
+    .button-inner {
+        color: white !important;
+        font-weight: 100
+    }
+    ion-item {
+        padding-right: 5% !important;
+        padding-top: 15px !important;
+        padding-bottom: 10px !important;
+    }
+    .myMark {
+        margin-left: 14% !important;
+        width: 86% !important;
+    }
+    
+    .item-inner {
+        background-color: #e9ecec !important;
+        padding-right: 0px !important;
+        border-top-right-radius: 7px !important;
+        border-top-left-radius: 7px !important;
+        padding-left: 8px !important;
+        border-bottom: 0.55px solid #46c0ae !important;
+    }
+    .item-inner::selection {
+        background-color: #cbcccc !important;
+        border-bottom: 2px solid #46c0ae !important;
+    }
+    h3 {
+        padding-left: 16px !important;
+        color: #757575 !important;
+        font-weight: 400 !important;
+        margin-top: 2.5rem !important;
+        margin-bottom: .1rem !important;
+    }
+}

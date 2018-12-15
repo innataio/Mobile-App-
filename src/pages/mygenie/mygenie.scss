@@ -10,34 +10,101 @@ page-mygenie {
         height: 100%;
         text-align: center;
       }
-    table{
-        thead{
-            tr{
-                th{
-                    border: 2px solid #e9ebec;
-                }
+      .rectangle {
+        position: relative;  
+      }
+      .center_image{
+        position: absolute;
+        width: 33%;
+        top: 34%;
+        left: 33%;
+      }
+      .input{
+        height: 39px !important;
+        width: 216px !important;
+        border-radius: 33px !important;
+        border: 1px solid lightgrey !important;
+        font-size: 13px;
+        text-align: center;
+        margin-left: -14px;
+      }      
+      .chatbox1{
+        background: #fefefe;
+        border-radius: 20px;
+        box-shadow: 0px 2px 5px 0px #888888;
+        margin: 0px 4px;
+        .mytitle {
+            margin-bottom:0px;
+            margin-top: 3rem;
+        }
+        .mydescription {
+            font-size:1.6rem;
+            letter-spacing:.3px;
+            margin-top: 0.5rem;
+        }
+      }
+      .chatbox2{
+        position: relative;
+        height: 414px;
+        // background-image: url('../assets/imgs/comment.png');
+        // height:250px;
+        padding-bottom: 10rem;
+        background: #fefefe;
+        border-radius: 20px;
+        box-shadow: 0px 2px 5px 0px #888888;
+        margin: 0px 4px;
+        .my_more {
+            position: absolute;
+            font-size: 4rem;
+            color: white;
+            top: 8px;
+            right: 5%;
+        }
+        .my_title {
+            position: absolute;
+            left: 20px;
+            color: white;
+            top: 3px;
+        }
+        .my_desc {
+            position: absolute;
+            color: white;
+            top: 10%;
+            left: 26%;
+            font-weight: 200;
+        }
+        .upload_section {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 0px 17px;
+            background-color: #f6f6f6;
+            .my_condition {
+                font-weight: 400;
+                color: #797979 !important;
+                margin-top: 1rem !important;
+            }
+            .my_plusicon {
+                font-size: 5rem;
+                color: #979797;
+                float: right;
+                font-weight: 100
+            }
+            .my_uploadicon {
+                font-size: 5rem;
+                color: #979797;
+                float: right;
+                width: 29px;
+                height: 42px;
             }
         }
-        tbody{
-            tr{
-                td{
-                    border: 1px solid #e9ebec;
-                    font-size: 12px
-                }
-            }
-        }
-    }
-    [_nghost-c0] a{
-        color: #1e6bb8;
-        font-size: 12px
-    }
-    ng2-smart-title{
-        font-size: 12px
-    }
-    .paddingclass{
-        padding: 10px;
-    }
-    [_nghost-c0] *{
-        font-size: 11px;
-    }
+      }    
+      .chatbox3 {
+
+      }  
+      .buubleDiv{
+        margin-top: -5px;
+        text-align: center;
+        cursor: pointer;
+      }
 }

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-
+import {Platform} from 'ionic-angular';
+import { AddConditionPage } from '../add-condition/add-condition';
 
 @Component({
   selector: 'page-mygenie',
@@ -9,51 +10,46 @@ import { NavController } from 'ionic-angular';
 
 
 export class MygeniePage {
-  data: { id: number; name: string; username: string; notes: string; }[];
- 
-  settings = {
-    
-    columns: {
-      id: {
-        title: 'ID'
-      },
-      name: {
-        title: 'Condition Name'
-      },
-      username: {
-        title: 'Congenital heart disease'
-       
-      },
-      notes: {
-        title: 'Notes'
-      }
-      
-    }
-    
-  };
-  constructor(public navCtrl: NavController ) { 
-    this.data = [
-      {
-        id: 1,
-        name: "Risk level",
-        username: "High genetic susceptibility to develop the condition",
-        notes: ""
-      },
-      {
-        id: 2,
-        name: "Prevalences",
-        username: "5-8/1000 live births",
-        notes: ""
-      },
-    
-      
-      {
-        id: 11,
-        name: "Onset age ",
-        username: "Adulthood",
-        notes: ""
-      }
-    ];
+
+  expended:         boolean;
+  expended_null:    boolean;
+  condition_form:   boolean;
+  expended_added:   boolean;
+  expended_expended:boolean;
+
+  constructor(public navCtrl: NavController,platform: Platform ) { 
+    this.expended = false;
+    this.expended_null = false;
+    this.condition_form = false;
+    this.expended_added = false;
+    this.expended_expended = false;
+
+    platform.ready().then((readySource) => {
+      console.log('Width: ' + platform.width());
+      console.log('Height: ' + platform.height());
+    });
+  }
+
+  ionViewDidLoad(){
+    this.expended = true;
+  }
+
+  showExpended_null() {
+    this.expended_null = true;
+    this.expended = false;
+    this.expended_added = false;
+    this.expended_expended = false;
+  }
+
+  showExpended_Added() {
+    this.expended_added = true;
+    this.expended = false;
+    this.expended_null = false;
+    this.expended_expended = false;
+  }
+
+  goToAddCondition() {
+    this.navCtrl.push(AddConditionPage);
   }
  
 }

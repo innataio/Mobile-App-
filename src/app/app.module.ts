@@ -26,6 +26,7 @@ import { PurchasePage } from '../pages/purchase/purchase';
 import { SocialPage } from '../pages/social/social';
 import { SpecialistPage } from '../pages/specialist/specialist';
 import { ClinicaltrailPage } from '../pages/clinicaltrail/clinicaltrail';
+import { AddConditionPage } from '../pages/add-condition/add-condition';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { ClinicaltrailPage } from '../pages/clinicaltrail/clinicaltrail';
     PurchasePage,
     SocialPage,
     SpecialistPage,
-    ClinicaltrailPage
+    ClinicaltrailPage,
+    AddConditionPage
   ],
   imports: [
     BrowserModule,
@@ -77,7 +79,8 @@ import { ClinicaltrailPage } from '../pages/clinicaltrail/clinicaltrail';
     PurchasePage,
     SocialPage,
     SpecialistPage,
-    ClinicaltrailPage
+    ClinicaltrailPage,
+    AddConditionPage
   ],
   providers: [
     StatusBar,
